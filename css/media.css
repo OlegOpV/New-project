@@ -1,0 +1,146 @@
+@media (max-width: 1180px) {
+    .title {
+        font-size: 4.75vw;
+    }
+}
+
+@media (max-width: 860px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__contact {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .service {
+        width: calc((100% - 20px) / 2);
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --container-width: 93.1%
+    }
+
+    .container {
+        width: var(--container-width);
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .hero {
+        padding-top: 90px;
+        border-bottom-width: 30px;
+    }
+
+    .hero__content {
+        flex-basis: 59.6%;
+        padding-top: 46px;
+    }
+
+    .title {
+        font-size: 31px;
+    }
+
+    .hero__img {
+        left: 0;
+        transform: translateX(30px);
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .rent {
+        padding: 90px 0px 70px;
+    }
+
+    .rent__btns-list {
+        display: none;
+    }
+
+    .offer {
+        width: 307px;
+    }
+
+    .control_type_triangle {
+        display: none;
+    }
+
+    .services {
+        background-color: transparent;
+    }
+
+    .services__logo {
+        display: none;
+    }
+
+    .service {
+        display: block;
+    }
+
+    .service__img {
+        width: auto;
+        justify-content: flex-start;
+        background-color: transparent;
+        padding: 30px 20px 0px;
+    }
+
+    .service__content {
+        padding: 20px 20px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --container-width: 91.47%
+    }
+
+    .hero__conteiner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero__content {
+        padding-right: 0;
+    }
+
+    .hero__img-wrap {
+        height: 484px;
+        width: 100vw;
+        flex-grow: 1;
+        border-radius: 0;
+    }
+
+    .hero__img-wrap::before {
+        height: 90%;
+        bottom: 0;
+        top: auto;
+    }
+
+    .hero__img {
+        height: 100%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .service {
+        display: flex;
+        width: 100%;
+    }
+
+    .service__img {
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2C3B45;
+        padding: 15px;
+    }
+}
